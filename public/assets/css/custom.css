@@ -1,0 +1,10 @@
+.activeStatus {
+    width: 12px;
+    height: 12px;
+    background: #1baf65;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 12%;
+    right: 6%;
+    transition: border .10s;
+}

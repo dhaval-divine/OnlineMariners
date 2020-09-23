@@ -1,0 +1,107 @@
+CREATE TABLE IF NOT EXISTS `offshore_certification_docs` (
+  `id` bigint(11) NOT NULL AUTO_INCREMENT,
+  `candidate_id` bigint(11) NOT NULL,
+  `agt0` varchar(80) NOT NULL,
+  `agt0_dt` date NOT NULL,
+  `agtl1_cbt` varchar(80) NOT NULL,
+  `agtl1_cbt_dt` date NOT NULL,
+  `agt2` varchar(80) NOT NULL,
+  `agt2_dt` date NOT NULL,
+  `agt2_cbt` varchar(80) NOT NULL,
+  `agt2_cbt_dt` date NOT NULL,
+  `agt3` varchar(80) NOT NULL,
+  `agt3_cbt_dt` date NOT NULL,
+  `ama_errv_crew_advanced_medical_aid` varchar(80) NOT NULL,
+  `ama_errv_crew_advanced_medical_aid_dt` date NOT NULL,
+  `boat_travel_safely_by_boat` varchar(80) NOT NULL,
+  `boat_travel_safely_by_boat_dt` date NOT NULL,
+  `boer_basic_onshore_emergency_response` varchar(80) NOT NULL,
+  `boer_basic_onshore_emergency_response_dt` date NOT NULL,
+  `bosiet_with_ca_ebs` varchar(80) NOT NULL,
+  `bosiet_with_ca_ebs_dt` date NOT NULL,
+  `bosiet` varchar(80) NOT NULL,
+  `bosiet_dt` date NOT NULL,
+  `bs1_banksman_slinger_training_s1` varchar(80) NOT NULL,
+  `bs1_banksman_slinger_training_s1_dt` date NOT NULL,
+  `bs3_banksman_slinger_training_s2` varchar(80) NOT NULL,
+  `bs3_banksman_slinger_training_s2_dt` date NOT NULL,
+  `bs4_banksman_slinger_training_s3` varchar(80) NOT NULL,
+  `bs4_banksman_slinger_training_s3` date NOT NULL,
+  `bs_blaster_sprayer_training` varchar(80) NOT NULL,
+  `bs_blaster_sprayer_training_dt` date NOT NULL,
+  `bsc_blaster_sprayer_competence` varchar(80) NOT NULL,
+  `bsc_blaster_sprayer_competence_dt` date NOT NULL,
+  `c&c` varchar(80) NOT NULL,
+  `c&c_dt` date NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4;
+
+AGT0- Authorised Gas Tester Training Level 1  
+AGT1 (CBT)- Authorised Gas Tester Training Level 1 (CBT)  
+AGT1- Authorised Gas Tester Training Level 2  
+AGT2 (CBT)- Authorised Gas Tester Training Level 2 (CBT)  
+AGT2- Authorised Gas Tester Training Level 3  
+AGT3 (CBT)- Authorised Gas Tester Training Level 3 (CBT)  
+AMA-ERRV Crew Advanced Medical Aid  
+BOAT- Travel Safely by Boat 
+BOER- Basic Onshore Emergency Response  
+BOSIET (with CA-EBS)- Basic Offshore Safety Induction and Emergency Training (with CA-EBS)  
+BOSIET- Basic Offshore Safety Induction and Emergency Training  Bridge- Bosiet Bridging Elements  
+BS0- Banksman and Slinger Training- Stage 1 
+BS2- Banksman and Slinger Training- Stage 3 
+BS3- Banksman and Slinger Training- Stage 4 
+BS- Blaster / Sprayer Training  
+BSC- Blaster Sprayer Competence 
+C&C- Command & Control for ERRV Masters & Mate  
+CA-EBS - Compressed Air Emergency Breathing System (Ca-Ebs) Initial Deployment Training 
+CASS- Competence Assessor COWPA - Control of Work Training for Performing Authorities 
+COX (Free) - Offshore Lifeboat Coxswain Training (Free Fall) 
+COX (Single) - Offshore Lifeboat Coxswain Training (Single Fall)  
+COX (SS) - Offshore Lifeboat Coxswain Supplementary Fall Training (Single Fall)   
+COX (TS) - Offshore Lifeboat Coxswain Supplementary Fall Training (Twin Fall) 
+COX (Twin) - Offshore Lifeboat Coxswain Training (Twin Fall)  
+COX - Offshore Lifeboat Coxswain  
+CRO - Control Room Operator 
+DCC - ERRV Crew Daughter Craft Coxswain 
+DGS - Dangerous Goods by Sea  
+EBS - Emergency Breathing System  
+ECT - Escape Chute Training 
+ESR0- Elected Safely Representatives Development Training Module 1  
+ESR1- Elected Safely Representatives Development Training Module 2  
+ESR2- Elected Safely Representatives Development Training Module 3  
+ESR3- Elected Safely Representatives Development Training Module 4  
+FOER - Further Onshore Emergency Response FOET (with CA-EBS)- Further Offshore Emergency Training (with CA-EBS) 
+FOET - Further Offshore Emergency Training  
+FP - Fire Proofing Training 
+FRCB-ERRV Crew Fast Rescue Craft Boatman  
+FRCC-ERRV Crew Fast Rescue Craft Coxswain 
+GH - Offshore Drilling Industry Greenhand 
+H2S - Basic H2S Training  
+HDA / HERTM-F-HDA And HERTM Further Training  
+HDA - Offshore Helideck Assistant (HDA) Initial Training  
+HERTL - HLO Helideck Emergency Response Team Leader (HERTL) Training  
+HERTM - HDA Helideck Emergency Response Team Member (HERTM) Training  
+HLO/ HERTL-F-HLO And HERTL Further Training 
+HLO - Offshore Helicopter Landing Officer (HLO) Initial Training  
+HUET (with CA-EBS)- Helicopter Underwater Escape Training (with CA-EBS) 
+HUET- Helicopter Underwater Escape Training IMIST - International Minimum Industry Safety Training  
+ITSO-ERRV Crew Initial Training Shipboard Operations  IV - International Verifier 
+LCP - LOLER Competent Person Assessment 
+MEMIR- Major Emergency Management Initial Response Training MIST 
+(CBT)- Minimum Industry Safety Training for Experienced Workers  
+MIST- Minimum Industry Safety Training  
+NMI - Application of Insulation Systems Training  
+OCO0- Offshore Crane Operator - Stage 1 Introductory Training 
+OERTL - Offshore Emergency Response Team Leader 
+OERTM - Offshore Emergency Response Team Member 
+OIM-OIM Controlling Emergencies 
+OODTP- Ongoing Onboard Development and Training Programme for ERRV Master and Crew  
+OSR- Offshore Safety Representative 
+R0-Rigger Training - Stage 1  
+R2-Rigger Competence- Stage 3 
+R3-Rigger Competence- Stage 4 
+RO- Offshore Radio Operator 
+SDAW- Safe Driving At Work  
+TBOSIET- Tropical Basic Offshore Safety Induction and Emergency Training  
+TFOET- Tropical Further Offshore Emergency Training
+THUET - Tropical Helicopter Underwater Escape Training

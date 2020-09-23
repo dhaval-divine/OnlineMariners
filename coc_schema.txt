@@ -1,0 +1,46 @@
+CREATE TABLE `coc_docs` (
+  `id` bigint(11) NOT NULL,
+  `candidate_id` bigint(11) NOT NULL,
+  `officers_incharge_navigational_unlimited` varchar(80) DEFAULT NULL,
+  `officers_incharge_navigational_unlimited_dt` date DEFAULT NULL,
+  `master_unlimited` varchar(80) DEFAULT NULL,
+  `master_unlimited_dt` date DEFAULT NULL,
+  `chief_mate_unlimited` varchar(80) DEFAULT NULL,
+  `chief_mate_unlimited_dt` date DEFAULT NULL,
+  `masters_ships_lessthan_500gt` varchar(80) DEFAULT NULL,
+  `masters_ships_lessthan_500gt_dt` date DEFAULT NULL,
+  `officers_charge_navigational_less_500` varchar(80) DEFAULT NULL,
+  `officers_charge_navigational_less_500_dt` date DEFAULT NULL,
+
+  `rating_forming_part_navigational_watch` varchar(80) NOT NULL,
+  `rating_forming_part_navigational_watch_dt` date NOT NULL,
+  `able_seafarer_deck` varchar(80) NOT NULL,
+  `able_seafarer_deck_dt` date NOT NULL,
+  `officer_charge_engineering_watch` varchar(80) NOT NULL,
+  `officer_charge_engineering_watch_dt` date NOT NULL,
+  `chief_engineer_officer` varchar(80) NOT NULL,
+  `chief_engineer_officer_dt` date NOT NULL,
+  `second_engineer_officer` varchar(80) NOT NULL,
+  `second_engineer_officer_dt` date NOT NULL,
+  `cef_second_eo_ships_750_3000` varchar(80) NOT NULL,
+  `cef_second_eo_ships_750_3000_dt` date NOT NULL,
+  `rating_formingpart_engineering_watch` varchar(80) NOT NULL,
+  `rating_formingpart_engineering_watch_dt` date NOT NULL,
+  `able_seafarer_engine` varchar(80) NOT NULL,
+  `able_seafarer_engine_dt` date NOT NULL,
+  `electro_technical_officer` varchar(80) NOT NULL,
+  `electro_technical_officer_dt` date NOT NULL,
+  `electro_technical_rating` varchar(80) NOT NULL,
+  `electro_technical_rating_dt` date NOT NULL,
+  `gmdss_radio_operator` varchar(80) NOT NULL,
+  `gmdss_radio_operator_dt` date NOT NULL,  
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+//
+
+MAIL_MAILER=smtp
+MAIL_HOST=smtp-relay.sendinblue.com
+MAIL_PORT=587
+MAIL_USERNAME=dhaval.divineinfosys@gmail.com
+MAIL_PASSWORD=g2R10UADLh7baqyO
+MAIL_ENCRYPTION=tls

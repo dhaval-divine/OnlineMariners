@@ -1,0 +1,84 @@
+CREATE TABLE IF NOT EXISTS `skills_training_certificates` (
+  `id` bigint(11) NOT NULL AUTO_INCREMENT,
+  `candidate_id` bigint(11) NOT NULL,
+  `arpa` varchar(80) NOT NULL,
+  `arpa_dt` date NOT NULL,
+  `behaviour_safety_process` varchar(80) NOT NULL,
+  `behaviour_safety_process_dt` date NOT NULL,
+  
+  `boatmaster_license` varchar(80) NOT NULL,
+  `boatmaster_license_dt` date NOT NULL,
+  `bridge_team_management` varchar(80) NOT NULL,
+  `bridge_team_management_dt` date NOT NULL,
+  `chemical_tankertraining` varchar(80) NOT NULL,
+  `chemical_tankertraining_dt` date NOT NULL,
+  `cows_crudeoil_washing` varchar(80) NOT NULL,
+  `cows_crudeoil_washing_dt` date NOT NULL,
+  `crane_operator_certificate` varchar(80) NOT NULL,
+  `crane_operator_certificate_dt` date NOT NULL,
+  `dp_induction` varchar(80) NOT NULL,
+  `dp_induction_dt` date NOT NULL,
+  `dp_limited` varchar(80) NOT NULL,
+  `dp_limited_dt` date NOT NULL,
+  `dp_simulator` varchar(80) NOT NULL,
+  `dp_simulator_dt` date NOT NULL,
+  `dp_full` varchar(80) NOT NULL,
+  `dp_full_dt` date NOT NULL,
+  `dp_maintenance` varchar(80) NOT NULL,
+  `dp_maintenance_dt` date NOT NULL,
+  `ecdis` varchar(80) NOT NULL,
+  `ecdis_dt` date NOT NULL,
+  `ecdis_kh` varchar(80) NOT NULL,
+  `ecdis_kh_dt` date NOT NULL,
+  `engineroom_simulator` varchar(80) NOT NULL,
+  `engineroom_simulator_dt` date NOT NULL,
+  `course_engineroom` varchar(80) NOT NULL,
+  `course_engineroom_dt` date NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4;
+
+--------------------------------------------------------------------------------------
+
+Remaining field
+-------------------
+
+systems_management	
+familiarisation_training	
+fire security_chemical_spill	
+food_hygiene	
+frc_fast rescue 
+craft_generalship_handling	
+gmdss_certificate	
+hazmat_imdg	
+igos_inert gas	
+language_proficiency	
+licos_chemical_cargo_simulator	
+licos_gas_cargo_simulator	
+licos_petroleum_cargo_simulator	
+lifeboatman_lifting_operation_and_lifting_equipment	
+liquified_gas 
+tanker training	mes certificate	
+oil tanker training	
+pass cargo safety and hull	
+radar	
+safety officers course	
+security duties training	
+ships security officer	
+tanker familiarisation	
+v.ships - vms induction certificate	
+crew resource management	
+ecdis course - generic	
+ecdis course - type specific	
+engine room resource management	
+engine room simulator	
+gas fuelled ships - advanced training	
+gas fuelled ships - basic training	
+helm course - management level	
+helm course - operational level	
+high voltage course - 
+management level	
+high volatge course - 
+operational level
+
+
+//ALTER TABLE `yacht_certification_docs` ADD PRIMARY KEY(`id`);

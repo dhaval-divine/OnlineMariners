@@ -1,0 +1,62 @@
+
+
+CREATE TABLE `yacht_certification_docs` (
+  `id` bigint(11) NOT NULL,
+  `candidate_id` bigint(11) NOT NULL,
+  `advanced_powerboat_certificate` varchar(80) DEFAULT NULL,
+  `advanced_powerboat_certificate_dt` date DEFAULT NULL,
+  `basic_sea_survival_certificate` varchar(80) DEFAULT NULL,
+  `basic_sea_survival_certificate_dt` date DEFAULT NULL,
+  `csy_offshore_certificate` varchar(80) DEFAULT NULL,
+  `csy_offshore_certificate_dt` date DEFAULT NULL,
+  `ds_certificate_competence` varchar(80) DEFAULT NULL,
+  `ds_certificate_competence_dt` date DEFAULT NULL,
+  `ds_shorebased_certificate` varchar(80) DEFAULT NULL,
+  `ds_shorebased_certificate_dt` date DEFAULT NULL,
+  `diesel_engine` varchar(80) DEFAULT NULL,
+  `diesel_engine_dt` date DEFAULT NULL,
+  `diveboat_coxswain` varchar(80) DEFAULT NULL,
+  `diveboat_coxswain_dt` date DEFAULT NULL,
+  `diveboat_master` varchar(80) DEFAULT NULL,
+  `diveboat_master_dt` date DEFAULT NULL,
+  `first_aid` varchar(80) DEFAULT NULL,
+  `first_aid_dt` date DEFAULT NULL,
+  `international_pleasure_craft_certificate` varchar(80) DEFAULT NULL,
+  `international_pleasure_craft_certificate_dt` date DEFAULT NULL,
+  `iyt_advanced_powerboat_master` varchar(80) DEFAULT NULL,
+  `iyt_advanced_powerboat_master_dt` date DEFAULT NULL,
+  `iyt_bareboat_skipper_power_certificate` varchar(80) DEFAULT NULL,
+  `iyt_bareboat_skipper_power_certificate_dt` date DEFAULT NULL,
+  `iyt_maste_200tons` varchar(80) DEFAULT NULL,
+  `iyt_maste_200tons_dt` date DEFAULT NULL,
+  `iyt_powerboat_rib_master_certificate` varchar(80) DEFAULT NULL,
+  `iyt_powerboat_rib_master_certificate_dt` date DEFAULT NULL,
+  `iyt_vhf_radio_operator_certificate` varchar(80) DEFAULT NULL,
+  `iyt_vhf_radio_operator_certificate_dt` date DEFAULT NULL,
+  `iyt_padi_diveboat_coxswain_certification` varchar(80) DEFAULT NULL,
+  `iyt_padi_diveboat_coxswain_certification_dt` date DEFAULT NULL,
+  `iyt_padi_diveboat_master` varchar(80) DEFAULT NULL,
+  `iyt_padi_diveboat_master_dt` date DEFAULT NULL,
+  `iyt_padi_diveboat_mate` varchar(80) DEFAULT NULL,
+  `iyt_padi_diveboat_mate_dt` date DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
+
+//ALTER TABLE `yacht_certification_docs` CHANGE `id` `id` BIGINT(11) NOT NULL AUTO_INCREMENT;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
